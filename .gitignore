@@ -1,0 +1,37 @@
+# Python virtual environment directories
+# Excludes virtual env folders from version control
+.venv/
+venv/
+env/
+
+# Environment configuration files
+# These usually contain secrets and should not be committed to Git
+.env
+.flaskenv
+.secrets.toml
+
+# Compiled Python files
+# Byte-code files don't need to be committed
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# IDE specific files/folders (optional but recommended)
+# Helps keep your repo clean regardless of what editor your team uses
+.idea/  # PyCharm/IntelliJ
+.vscode/ # VS Code
+*.swp   # Vim swap files
+.DS_Store # macOS specific system files
+
+# Testing and coverage artifacts
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3

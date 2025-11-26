@@ -1,0 +1,31 @@
+# Ignore the virtual environment folder (common names)
+.venv/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore editor/OS specific files
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore source control
+.git/
+.gitignore
+
+# Ignore sensitive environment files
+.env
+.flaskenv
+
+# Ignore logs and test artifacts
+*.log
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+.pytest_cache
